@@ -22,3 +22,8 @@
     border: 1px solid #F6BC00 !important;
     color: #F6BC00 !important;
 }
+
+.container.range-plugin .calendar>.days-grid>.day.end:after {
+    border: 8px solid transparent;
+    border-right: 8px solid #F6BC00;
+}
