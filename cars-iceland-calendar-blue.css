@@ -1,0 +1,24 @@
+
+.container.range-plugin .calendar>.days-grid>.day.end, .container.range-plugin .calendar>.days-grid>.day.start {
+    background-color: #0068b4 !important;
+    color: var(--color-fg-selected) !important;
+}
+
+.container.range-plugin .calendar>.days-grid>.day.start:after {
+    border: 8px solid transparent !important;
+    border-left: 8px solid #0068b4 !important;
+}
+
+.calendar>.days-grid>.day:hover {
+    border: 1px solid #0068b4 !important;
+    color: #0068b4 !important;
+}
+
+.container.range-plugin .calendar>.days-grid>.day.in-range {
+    background-color: rgba(0, 104, 180, 0.22) !important;
+}
+
+.calendar>.days-grid>.day:hover {
+    border: 1px solid #0068b4 !important;
+    color: #0068b4 !important;
+}
